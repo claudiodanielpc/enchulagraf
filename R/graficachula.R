@@ -10,7 +10,7 @@
 
 
 grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",subtitulo = "",
-                          caption = "Fuente: Datos generados por mí"
+                          caption = "Fuente: Datos generados por mí",
                           color_linea= "steelblue",
                           tam_linea = 1,
                           tam_tiulo = 16,
@@ -36,8 +36,8 @@ grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",su
 }
 
 #' Gráfica de barras
-#' 
-#' #' @param data Un data.frame
+#'
+#' @param data Un data.frame
 #' @param x Variable en el eje x (como string)
 #' @param y Variable en el eje y (como string)
 #' @param titulo Título del gráfico
