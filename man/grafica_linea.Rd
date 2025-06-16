@@ -10,6 +10,8 @@ grafica_linea(
   y,
   titulo = "Mi gráfico de línea bonito",
   subtitulo = "",
+  titulo_x = "Eje X",
+  titulo_y = "Eje Y",
   caption = "Fuente: Datos generados por mí",
   color_linea = "steelblue",
   tam_linea = 1,
@@ -23,9 +25,9 @@ grafica_linea(
 \arguments{
 \item{data}{Un data.frame}
 
-\item{x}{Variable en el eje x (como string)}
+\item{x}{Variable en el eje x}
 
-\item{y}{Variable en el eje y (como string)}
+\item{y}{Variable en el eje y}
 
 \item{titulo}{Título del gráfico}
 }

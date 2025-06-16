@@ -1,8 +1,8 @@
 #' Gráfica de línea
 #'
 #' @param data Un data.frame
-#' @param x Variable en el eje x (como string)
-#' @param y Variable en el eje y (como string)
+#' @param x Variable en el eje x 
+#' @param y Variable en el eje y 
 #' @param titulo Título del gráfico
 #' @return Un objeto ggplot
 #' @export
@@ -40,8 +40,8 @@ grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",su
 #' Gráfica de barras
 #'
 #' @param data Un data.frame
-#' @param x Variable en el eje x (como string)
-#' @param y Variable en el eje y (como string)
+#' @param x Variable en el eje x 
+#' @param y Variable en el eje y 
 #' @param titulo Título del gráfico
 #' @return Un objeto ggplot
 #' @export
