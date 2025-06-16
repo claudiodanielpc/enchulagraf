@@ -10,6 +10,8 @@
 
 
 grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",subtitulo = "",
+          titulo_x = "Eje X",
+          titulo_y = "Eje Y",
                           caption = "Fuente: Datos generados por mí",
                           color_linea= "steelblue",
                           tam_linea = 1,
@@ -47,6 +49,8 @@ grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",su
 #'
 
 grafica_barras <- function(data, x, y, titulo = "Mi gráfico de barras bonito",subtitulo = "",
+                            titulo_x = "Eje X",
+                            titulo_y = "Eje Y",
                            caption = "Fuente: Datos generados por mí",
                            color_barras= "steelblue",
                            tam_tiulo = 16,
