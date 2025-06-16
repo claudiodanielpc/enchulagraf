@@ -19,7 +19,8 @@ grafica_linea(
   tam_subtitulo = 14,
   tam_fuente = 12,
   tam_titulo_ejes = 10,
-  tam_etiquetas_ejes = 10
+  tam_etiquetas_ejes = 10,
+  fuente = NULL
 )
 }
 \arguments{
