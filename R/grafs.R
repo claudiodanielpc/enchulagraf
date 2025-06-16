@@ -6,7 +6,7 @@
 #' @param titulo Título del gráfico
 #' @return Un objeto ggplot
 #' @export
-#' 
+#'
 
 
 grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",subtitulo = "",
@@ -18,7 +18,7 @@ grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",su
                           tam_fuente = 12,
                           tam_titulo_ejes=10,
                           tam_etiquetas_ejes = 10
-                          ) {
+) {
   ggplot2::ggplot(data, ggplot2::aes_string(x = x, y = y)) +
     ggplot2::geom_line(color = color_linea, size = tam_linea) +
     ggplot2::labs(title = titulo, x = x, y = y,subtitle = subtitulo,caption = caption
@@ -43,8 +43,8 @@ grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",su
 #' @param titulo Título del gráfico
 #' @return Un objeto ggplot
 #' @export
-#' 
-#' 
+#'
+#'
 
 grafica_barras <- function(data, x, y, titulo = "Mi gráfico de barras bonito",subtitulo = "",
                            caption = "Fuente: Datos generados por mí",
