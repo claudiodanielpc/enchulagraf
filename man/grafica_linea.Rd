@@ -15,7 +15,7 @@ grafica_linea(
   caption = "Fuente: Datos generados por mí",
   color_linea = "steelblue",
   tam_linea = 1,
-  tam_tiulo = 16,
+  tam_title = 16,
   tam_subtitulo = 14,
   tam_fuente = 12,
   tam_titulo_ejes = 10,

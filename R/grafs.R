@@ -15,7 +15,7 @@ grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",su
                           caption = "Fuente: Datos generados por mí",
                           color_linea= "steelblue",
                           tam_linea = 1,
-                          tam_tiulo = 16,
+                          tam_title = 16,
                           tam_subtitulo = 14,
                           tam_fuente = 12,
                           tam_titulo_ejes=10,
@@ -27,7 +27,7 @@ grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",su
     ) +
     ggplot2::theme_minimal()+
     ggplot2::theme(
-      plot.title = ggplot2::element_text(hjust = 0, size = tam_tiulo, face = "bold"),
+      plot.title = ggplot2::element_text(hjust = 0, size = tam_title, face = "bold"),
       plot.subtitle = ggplot2::element_text(hjust = 0, size = tam_subtitulo, face = "italic"),
       plot.caption = ggplot2::element_text(hjust = 0, size = tam_fuente),
       axis.title.x = ggplot2::element_text(size = tam_titulo_ejes),
@@ -55,7 +55,7 @@ grafica_barras <- function(data, x, y,
                             titulo_y = "Eje Y",
                            caption = "Fuente: Datos generados por mí",
                            color_barras= "steelblue",
-                           tam_tiulo = 16,
+                           tam_title = 16,
                            tam_subtitulo = 14,
                            tam_fuente = 12,
                            tam_titulo_ejes=10,
@@ -67,7 +67,7 @@ grafica_barras <- function(data, x, y,
     ) +
     ggplot2::theme_minimal()+
     ggplot2::theme(
-      plot.title = ggplot2::element_text(hjust = 0, size = tam_tiulo, face = "bold"),
+      plot.title = ggplot2::element_text(hjust = 0, size = tam_title, face = "bold"),
       plot.subtitle = ggplot2::element_text(hjust = 0, size = tam_subtitulo, face = "italic"),
       plot.caption = ggplot2::element_text(hjust = 0, size = tam_fuente),
       axis.title.x = ggplot2::element_text(size = tam_titulo_ejes),
