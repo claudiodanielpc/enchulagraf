@@ -7,7 +7,7 @@
 #' @return Un objeto ggplot
 #' @export
 #' 
-sysfonts::font_add_google("Poppins", "Poppins")
+showtext::font_add_google("Poppins", "Poppins")
 showtext::showtext_auto()
 
 grafica_linea <- function(data, x, y, titulo = "Mi gráfico de línea bonito",subtitulo = "",
