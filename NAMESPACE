@@ -1,2 +1,1 @@
-export(grafica_linea)
-export(grafica_barras)
+export(graficachula)
